@@ -2,9 +2,9 @@ This plugin adds a [unite.vim](https://github.com/Shougo/unite.vim) source that 
 
 Requirements
 ============
-    * [unite.vim](https://github.com/Shougo/unite.vim)
-
-    * [vimproc](https://github.com/Shougo/vimproc.vim)
+ * [unite.vim](https://github.com/Shougo/unite.vim)
+ 
+ * [vimproc](https://github.com/Shougo/vimproc.vim)
 
 Usage
 ======
