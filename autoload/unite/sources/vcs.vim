@@ -1,7 +1,7 @@
 "=============================================================================
 " AUTHOR:  Mun Mun Das <m2mdas at gmail.com>
 " FILE: vcs.vim
-" Last Modified: August 17, 2013
+" Last Modified: August 19, 2013
 " License: MIT license  {{{
 "     Permission is hereby granted, free of charge, to any person obtaining
 "     a copy of this software and associated documentation files (the
@@ -148,7 +148,7 @@ endfunction "}}}
 
 function! s:get_vcs_command(vcs) "{{{
   let vcs_map = {
-        \ 'git' : 'git ls-files',
+        \ 'git' : 'git ls-files -o -m -c --exclude-standard',
         \ 'hg'  : 'hg status -c -m -u',
         \ 'svn' : 'svn list -R'
         \}
