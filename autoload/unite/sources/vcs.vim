@@ -148,7 +148,7 @@ endfunction "}}}
 
 function! s:get_vcs_command(vcs) "{{{
   let vcs_map = {
-        \ 'git' : 'git ls-files -o -m -c --exclude-standard',
+        \ 'git' : 'git ls-files -o -c --exclude-standard',
         \ 'hg'  : 'hg status -c -m -u',
         \ 'svn' : 'svn list -R'
         \}
